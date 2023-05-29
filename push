@@ -1,0 +1,7 @@
+git add .
+read -p "Enter a commit message: ⎆ " message
+git commit -am $message
+git push
+
+say "pushed to GitHub successfully"
+echo "pushed to GitHub successfully"
