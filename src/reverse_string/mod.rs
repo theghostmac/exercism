@@ -1,7 +1,6 @@
 pub fn reverse(input: &str) -> String {
-    // create string and reversal logic.
+    // create a string and reverse it.
     let reversed_string: String = input.chars().rev().collect();
-    // return reversed_string.
+    // publish the string.
     reversed_string
 }
-
